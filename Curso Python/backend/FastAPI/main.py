@@ -3,7 +3,12 @@ from routers import users, products, jwt_auth_users, basic_auth_users, users_db
 from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
+@app.get("/")
+async def root():
+    return {"mensaje": "Vercel funcionando"}
 
+
+""" 
 # ROUTERS
 app.include_router(users.router)
 app.include_router(products.router)
@@ -24,5 +29,5 @@ async def root():
 
 @app.get("/url")
 async def url():
-    return {"url": "https://mouredev.com/python"}
+    return {"url": "https://mouredev.com/python"} """
 
