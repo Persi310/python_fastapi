@@ -4,12 +4,7 @@ anyio==4.13.0
 argon2-cffi==25.1.0
 argon2-cffi-bindings==25.1.0
 certifi==2026.4.22
-cffi0==2.0.0
-click0==8.4.0
-colorama0==0.4.6
-dnspython0==2.8.0
-email-validator0==2.3.0
-fastapi0==0.136.1
+fastapi==0.136.1
 fastapi-cli==0.0.24
 fastapi-cloud-cli==0.17.1
 fastar==0.11.0
