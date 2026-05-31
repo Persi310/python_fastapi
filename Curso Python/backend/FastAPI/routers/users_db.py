@@ -4,8 +4,6 @@ from db.client import db_client
 from db.schemas.user import user_schema, users_schema
 from bson import ObjectId
 
-#OPjLTG7PvB4lYXUR
-
 router = APIRouter(tags=["users_db"], prefix="/usersdb")
 
     
