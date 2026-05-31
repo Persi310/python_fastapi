@@ -1,1 +1,3 @@
 FastAPI/db/client.py
+__pycache__/
+*.pyc
