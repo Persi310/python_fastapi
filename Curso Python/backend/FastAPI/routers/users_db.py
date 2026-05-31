@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, status
-from db.models.User import User
-from db.client import db_client
-from db.schemas.user import user_schema, users_schema
+from FastAPI.db.models.User import User
+from FastAPI.db.client import db_client
+from FastAPI.db.schemas.user import user_schema, users_schema
 from bson import ObjectId
 
 router = APIRouter(tags=["users_db"], prefix="/usersdb")
